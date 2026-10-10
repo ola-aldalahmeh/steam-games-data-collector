@@ -14,7 +14,7 @@ Steam game pages  ──► scraper.py  ──► steam_games.csv
 
 > 📸 **SCREENSHOT:** 
 
-![Terminal showing the crawler after entering 20 pages to scrape. A progress bar reads “Discovering games: 15%”, 3 of 20 pages, about 3 seconds per page, with 75 games found so far](docs\screenshots\terminal_run1.png)
+![Terminal showing the crawler after entering 20 pages to scrape. A progress bar reads “Discovering games: 15%”, 3 of 20 pages, about 3 seconds per page, with 75 games found so far](docs/screenshots/terminal_run1.png)
 ![Terminal output after a finished run: “Done — 489 scraped, 0 failed. Data saved to steam_games.csv”, followed by “Unique key added”, “489 rows affected”, and “DB load finished. 489 rows processed](docs/screenshots/terminal_res.png) 
 
 ---
@@ -123,7 +123,7 @@ DB_NAME=steam_games_data
 
 
 
-> 📸 **SCREENSHOT:** ![MySQL result grid of the games table with columns App_ID, Game_Name, Released_Date, Release_Year, Release_Month, Price_USD, Is_Free, Discount, and review text and score columns. Rows include Team Fortress 2, Left 4 Dead 2, Dota 2, Counter-Strike 2, and Terraria, with NULL shown for missing discounts](DB.png)
+> 📸 **SCREENSHOT:** ![MySQL result grid of the games table with columns App_ID, Game_Name, Released_Date, Release_Year, Release_Month, Price_USD, Is_Free, Discount, and review text and score columns. Rows include Team Fortress 2, Left 4 Dead 2, Dota 2, Counter-Strike 2, and Terraria, with NULL shown for missing discounts](docs/screenshots/DB.png)
 
 ---
 
@@ -197,8 +197,8 @@ Review score scale: Overwhelmingly Positive = 5, Very Positive = 4, Mostly Posit
 >-
 
 > 📸 **SCREENSHOT:** 
-![Excel view of steam_games.csv showing scraped Steam data: app ID, game title, release date, year, month, price, free-to-play flag, discount, review summaries and scores, developer, publisher, and store URL](docs\screenshots\games_index_csv.png)
-![Excel view of games_index.csv with columns id, link, is_scraped, last_updated, and discovered. Every visible row has is_scraped set to TRUE, with timestamps from 10/9/2026 between 18:08 and 18:11](docs\screenshots\steam_games_csv.png)
+![Excel view of steam_games.csv showing scraped Steam data: app ID, game title, release date, year, month, price, free-to-play flag, discount, review summaries and scores, developer, publisher, and store URL](docs/screenshots/games_index_csv.png)
+![Excel view of games_index.csv with columns id, link, is_scraped, last_updated, and discovered. Every visible row has is_scraped set to TRUE, with timestamps from 10/9/2026 between 18:08 and 18:11](docs/screenshots/steam_games_csv.png)
 
 ---
 
