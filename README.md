@@ -38,8 +38,8 @@ Steam game pages  ──► scraper.py  ──► steam_games.csv
 ├── crawler.py           # Stage 1: discover game links -> games_index.csv
 ├── scraper.py           # Stage 2: scrape detail pages -> steam_games.csv
 ├── database_loader.py   # Stage 3: load CSV into MySQL
-├── requirements.txt     # (create this, see below)
-├── .env                 # (create this, DB credentials, NEVER commit)
+├── requirements.txt   
+├── .env                 
 ├── .gitignore
 ├── data/                
 │   ├── games_index.csv
