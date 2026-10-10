@@ -15,7 +15,7 @@ Steam game pages  ──► scraper.py  ──► steam_games.csv
 > 📸 **SCREENSHOT:** 
 
 ![Terminal showing the crawler after entering 20 pages to scrape. A progress bar reads “Discovering games: 15%”, 3 of 20 pages, about 3 seconds per page, with 75 games found so far](docs\screenshots\terminal_run1.png)
-![Terminal output after a finished run: “Done — 489 scraped, 0 failed. Data saved to steam_games.csv”, followed by “Unique key added”, “489 rows affected”, and “DB load finished. 489 rows processed](docs\screenshots\terminal_res.png) 
+![Terminal output after a finished run: “Done — 489 scraped, 0 failed. Data saved to steam_games.csv”, followed by “Unique key added”, “489 rows affected”, and “DB load finished. 489 rows processed](docs/screenshots/terminal_res.png) 
 
 ---
 
